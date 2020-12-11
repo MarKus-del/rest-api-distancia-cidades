@@ -24,7 +24,12 @@ abordados diversos assuntos desde :
 + a como fazer deploy desta aplicação no heroku 
 
 # Rotas
-
++ para buscar os paises: https://consulta-distancia-cidades.herokuapp.com/countries
++ para buscar os estados: https://consulta-distancia-cidades.herokuapp.com/states
++ para buscar as cidades : https://consulta-distancia-cidades.herokuapp.com/cities
++ Para saber a distancia entre duas cidades usar os parametros From com To na uri example:
+  + by-points: https://consulta-distancia-cidades.herokuapp.com/distances/by-points?from=4972&to=5270
+  + by-cube: https://consulta-distancia-cidades.herokuapp.com/distances/by-cube?from=4972&to=5270
 # Referencias 
 
 + Foi usado uma base de scripts em postgres ja definida feito por [Chinnon Santos](https://github.com/chinnonsantos) podendo ser acessado pelo seguinte link: [sql-paises-estados-cidades](https://github.com/chinnonsantos/sql-paises-estados-cidades)
